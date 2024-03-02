@@ -343,7 +343,7 @@ Adriano Belisario
 <section id="overview" class="slide level2">
 <h2>Overview</h2>
 <ul>
-<li class="fragment"><p>Personal introduction</p></li>
+<li class="fragment"><p>About me</p></li>
 <li class="fragment"><p>My research on language models and firearm violence</p></li>
 <li class="fragment"><p>Considerations on AI uses for human rights investigations</p></li>
 </ul>
@@ -353,20 +353,20 @@ Adriano Belisario
 </section>
 <section id="hi" class="slide level2">
 <h2>Hi!</h2>
-<p>Data journalist experienced in human rights investigations.</p>
+<p>Data journalist from 🇧🇷, experienced in human rights investigations.</p>
 <p>Since 2013, I have collaborated with several Brazilian and international organizations, such as Witness, UNHCR, Forensic Architecture, and Bellingcat.</p>
-<p>Here, I will present my research at the Oxford Internet Institute, developed in partnership with <a href="https://fogocruzado.org.br/"><strong>Fogo Cruzado Institute</strong></a>, my research partner.</p>
+<p>Here, I will present my research at the Oxford Internet Institute, developed in partnership with <a href="https://fogocruzado.org.br/"><strong>Fogo Cruzado</strong></a>.</p>
 </section>
-<section id="fogo-cruzado-institute" class="slide level2">
-<h2>Fogo Cruzado Institute</h2>
-<p>The partner organization has monitored and collected data from firearm violence events in Rio de Janeiro since 2017. They currently operate in four cities.</p>
+<section id="fogo-cruzado" class="slide level2">
+<h2>Fogo Cruzado</h2>
+<p>Instituto Fogo Cruzado (Crossfire Institute) has monitored and collected data from firearm violence events in Rio de Janeiro since 2017. They currently operate in four cities.</p>
 <p>Fogo Cruzado’s human rights analysts follow online and on-the-ground sources seven days a week.</p>
 <div class="footer">
-<p>Learn more: <a href="https://fogocruzado.org.br/">Fogo Cruzado website</a></p>
+<p>Learn more: <a href="https://fogocruzado.org.br/">https://fogocruzado.org.br/</a></p>
 </div>
 </section>
-<section id="fact-checking-gun-violence-reports" class="slide level2">
-<h2>Fact-checking gun violence reports</h2>
+<section id="fact-checking-gun-violence" class="slide level2">
+<h2>Fact-checking gun violence</h2>
 <p>Human rights analysts follow multiple online sources simultaneously.</p>
 <p>If a gun violence report is identified on social media, they ask follow-up questions to the users.</p>
 <p>Then, they need to fact-check all reports and, if they are true, record an event in their database and provide real-time alerts.</p>
@@ -374,13 +374,11 @@ Adriano Belisario
 <section id="the-needle-in-the-haystack" class="slide level2">
 <h2>The needle in the haystack</h2>
 <div class="columns">
-<div class="column" style="width:80%;">
-<ul>
-<li class="fragment"><p>To keep the flow of new messages manageable for analysts, restrictive search filters were used (e.g.&nbsp;using geographic instead of linguistic filters). However, less than half of Twitter data is geotagged, meaning many reports may have been missed.</p></li>
-<li class="fragment"><p>Even so, following several multiple sources a gun violence report among ordinary text demands attention and time. Analysts must conciliate the demand for verifying the cases and keeping up with an unstoppable flow of new information.</p></li>
-</ul>
-</div><div class="column" style="width:20%;">
-<p><img data-src="img/tweetdeck.png" class="border border-thick"></p>
+<div class="column" style="width:70%;">
+<p>To keep the flow of new messages manageable, restrictive search filters were used (e.g.&nbsp;using geographic instead of linguistic filters). However, less than half of Twitter data is geotagged, meaning many reports may have been missed.</p>
+<p>Even so, following several multiple sources a gun violence report among ordinary text is difficult. Analysts must conciliate the demand for verifying the cases and keeping up with an unstoppable flow of new posts.</p>
+</div><div class="column" style="width:30%;">
+<p><img data-src="img/tweetdeck.jpeg" class="border border-thick"></p>
 </div>
 </div>
 </section>
@@ -394,36 +392,45 @@ Adriano Belisario
 </section>
 <section id="methods" class="slide level2">
 <h2>Methods</h2>
-<p>I trained a Transformer neural network (the T in ChatGPT) using an open-source base Brazilian base model (BERTimbau) and about 30k tweet messages that have been deemed as gun violence reports by the Fogo Cruzado Institute over the last five years.</p>
+<p>I fine-tuned a Transformer neural network (the T in ChatGPT) using an open-source base model for Portuguese (BERTimbau) and ~30k tweet messages.</p>
 <p>In addition to standard evaluation using holdout datasets, I integrated the model in a prototype designed to provide real-time predictions and evaluated it in real-world conditions with an experiment.</p>
+<div class="footer">
+<p><a href="https://huggingface.co/neuralmind/bert-large-portuguese-cased">https://huggingface.co/neuralmind/bert-large-portuguese-cased</a></p>
+</div>
 </section>
 <section id="the-prototype" class="slide level2">
 <h2>The prototype</h2>
+<div class="columns">
+<div class="column" style="width:70%;">
 <ol type="1">
 <li class="fragment"><p>Fetch new tweets using keywords and/or location and language filters.</p></li>
 <li class="fragment"><p>The model predicts a binary classification for the message: gun violence report or ordinary text.</p></li>
 <li class="fragment"><p>The text message and all metadata available - including the predictions - are uploaded to Airtable.</p></li>
 </ol>
+</div><div class="column" style="width:30%;">
+<p><img data-src="img/airtable.png" class="border border-thick"></p>
+</div>
+</div>
 </section>
 <section id="the-experiment" class="slide level2">
 <h2>The experiment</h2>
 <p>I conducted an experiment to evaluate the model performance in the wild: for one month, analysts from Rio de Janeiro adopted the AI-based classification to assist their online search, whereas other regions still used only fully human-made reviews.</p>
-<p>The experiment was evaluated through surveys, interviews, and the number of Twitter interactions with new reports by region (controlled by external factors using a difference-in-difference analysis).</p>
+<p>The experiment was evaluated through surveys, interviews, and the number of Twitter interactions with new reports by region (controlled by external factors).</p>
 </section>
-<section id="findings" class="slide level2">
-<h2>Findings</h2>
-</section>
-<section id="model-performance" class="slide level2">
-<h2>Model performance</h2>
-</section>
-<section id="experiment-results" class="slide level2">
-<h2>Experiment results</h2>
+<section id="results" class="slide level2 smaller">
+<h2>Results</h2>
+<ul>
+<li class="fragment"><p>The model performed really well in all classification metrics (80-90% of success) when tested with holdout datasets.</p></li>
+<li class="fragment"><p>Analysts have approved and adopted the prototype as part of their standard workflow to monitor new cases;</p></li>
+<li class="fragment"><p>The experiment showed that using AI increased analysts’ interactions with users reporting armed violence.</p></li>
+</ul>
 </section>
 <section id="final-considerations" class="slide level2">
 <h2>Final considerations</h2>
 <ul>
-<li class="fragment"><p>Language gap in Natural Language Processing</p></li>
-<li class="fragment"><p>Restrictions on social media APIs</p></li>
+<li class="fragment"><p><strong>Beyond English: language gap in AI</strong></p></li>
+<li class="fragment"><p><strong>Beyond Twitter: restrictions on social media APIs</strong></p></li>
+<li class="fragment"><p><strong>Beyond text: multimodal disinformation</strong></p></li>
 </ul>
 </section>
 <section id="references" class="slide level2">
