@@ -3,7 +3,7 @@ title: "Using language models for fact-checking on gun violence events"
 author: "Adriano Belisario"
 format:
   revealjs: 
-    theme: simple
+    theme: sky
     incremental: true
     slide-number: true
     chalkboard: 
@@ -12,7 +12,7 @@ format:
     css: styles.css
 ---
 
-# Overview
+## Overview
 
 - Personal introduction
 
@@ -20,7 +20,11 @@ format:
 
 - Considerations on AI uses for human rights investigations
 
-# Hi!
+::: footer
+Link for this presentation: [https://belisards.github.io/dw_desinfo](https://belisards.github.io/dw_desinfo)
+:::
+
+## Hi!
 
 Data journalist experienced in human rights investigations.
 
@@ -28,13 +32,17 @@ Since 2013, I have collaborated with several Brazilian and international organiz
 
 Here, I will present my research at the Oxford Internet Institute, developed in partnership with [**Fogo Cruzado Institute**](https://fogocruzado.org.br/), my research partner.
 
-# Fogo Cruzado Institute
+## Fogo Cruzado Institute
 
 The partner organization has monitored and collected data from firearm violence events in Rio de Janeiro since 2017. They currently operate in four cities.
 
 Fogo Cruzado's human rights analysts follow online and on-the-ground sources seven days a week. 
 
-# Fact-checking gun violence reports
+::: footer
+Learn more: [Fogo Cruzado website](https://fogocruzado.org.br/)
+:::
+
+## Fact-checking gun violence reports
 
 Human rights analysts follow multiple online sources simultaneously.
 
@@ -42,27 +50,36 @@ If a gun violence report is identified on social media, they ask follow-up quest
 
 Then, they need to fact-check all reports and, if they are true, record an event in their database and provide real-time alerts.
 
-# The problem
+## The needle in the haystack
 
-- To prevent an overflow of messages on Twitter, restrictive search filters were then adopted (e.g. using geographic instead of linguistic filters). However, less than half of Twitter data is geotagged, meaning that many reports might had been missed.
+::: columns
+::: {.column width="80%"}
+- To keep the flow of new messages manageable for analysts, restrictive search filters were used (e.g. using geographic instead of linguistic filters). However, less than half of Twitter data is geotagged, meaning many reports may have been missed.
 
-- Even so, following several multiple sources to find a needle in the haystack (a gun violence report among ordinary text) demands attention and time. Analysts must conciliate the demand for verifying the cases and keeping up with an unstoppable flow of new information.
+- Even so, following several multiple sources a gun violence report among ordinary text demands attention and time. Analysts must conciliate the demand for verifying the cases and keeping up with an unstoppable flow of new information.
+:::
 
-# Goals
+::: {.column width="20%"}
+![](img/tweetdeck.png){.border .border-thick}
+:::
+:::
 
-- Train an open-source language model on analysts' interactions to detect what is a gun violence report in colloquial Brazilian Portuguese.
 
-- Reduce signal to noise ratio for analysts monitoring firearm violence.
+## Goals
+
+- Train an open-source language model on analysts' interactions to detect what a gun violence report is in colloquial Brazilian Portuguese.
+
+- Reduce signal-to-noise ratio for analysts monitoring firearm violence.
 
 - Design an experiment to assess the model's performance in a real-world setting.
 
-# Methods
+## Methods
 
 I trained a Transformer neural network (the T in ChatGPT) using an open-source base Brazilian base model (BERTimbau) and about 30k tweet messages that have been deemed as gun violence reports by the Fogo Cruzado Institute over the last five years.
 
-In addition to standard evaluation using holdout datasets, I integrated the model in a prototype designed to provide real-time predictions and assesed it in real-world conditions with an experiment.
+In addition to standard evaluation using holdout datasets, I integrated the model in a prototype designed to provide real-time predictions and evaluated it in real-world conditions with an experiment.
 
-# The prototype
+## The prototype
 
 1. Fetch new tweets using keywords and/or location and language filters.
 
@@ -71,33 +88,33 @@ In addition to standard evaluation using holdout datasets, I integrated the mode
 3. The text message and all metadata available - including the predictions - are uploaded to Airtable.
 
 
-# The experiment
+## The experiment
 
 I conducted an experiment to evaluate the model performance in the wild: for one month, analysts from Rio de Janeiro adopted the AI-based classification to assist their online search, whereas other regions still used only fully human-made reviews. 
 
 The experiment was evaluated through surveys, interviews, and the number of Twitter interactions with new reports by region (controlled by external factors using a difference-in-difference analysis).
 
-# Findings
+## Findings
 
-# Model performance
+## Model performance
 
-# Experiment results
+## Experiment results
 
 
 
-# Final considerations
+## Final considerations
 
 - Language gap in Natural Language Processing
 
 - Restrictions on social media APIs
 
-# References
+## References
 
 - arXiv paper (preprint: [https://arxiv.org/abs/2401.12989](https://arxiv.org/abs/2401.12989)
 
 - Access this presentation online: [https://belisards.github.io/dw_desinfo](https://belisards.github.io/dw_desinfo)
 
-# Contact me
+## Contact me
 
 I'm glad to hear from you! 
 
