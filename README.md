@@ -1,5 +1,5 @@
 # Into the crossfire
-Slides on my research at the Oxford Internet Institute on using language models to assist human rights analysts in detecting and fact-checking gun violence reports.
+Slides of my research at the Oxford Internet Institute on using language models to assist human rights analysts in detecting and fact-checking gun violence reports.
 
 Slides: [belisards.github.io/slides-bert-fact-checking/](belisards.github.io/slides-bert-fact-checking/)
 
