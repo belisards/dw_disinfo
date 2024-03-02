@@ -25,37 +25,19 @@ Link for this presentation: [https://belisards.github.io/dw_desinfo](https://bel
 :::
 
 
-
-## Fragments
-
-Incremental text display and animation with fragments:
-
-<br/>
-
-::: {.fragment .fade-in}
-Fade in
-:::
-
-::: {.fragment .fade-up}
-Slide up while fading in
-:::
-
-::: {.fragment .fade-left}
-Slide left while fading in
-:::
-
-
-
 ## Hi!
 
 Data journalist from 🇧🇷, experienced in human rights investigations.
 
 Since 2013, I have collaborated with several Brazilian and international organizations, such as Witness, UNHCR, Forensic Architecture, and Bellingcat.
 
+::: {.fragment .fade-in}
 Here, I will present my research at the Oxford Internet Institute, developed in partnership with [**Fogo Cruzado**](https://fogocruzado.org.br/).
+:::
+
+
 
 ## Fogo Cruzado
-
 Instituto Fogo Cruzado (Crossfire Institute) has monitored and collected data from firearm violence events in Rio de Janeiro since 2017. They currently operate in four cities.
 
 Fogo Cruzado's human rights analysts follow online and on-the-ground sources seven days a week. 
@@ -67,11 +49,12 @@ Learn more: [https://fogocruzado.org.br/](https://fogocruzado.org.br/)
 ## Fact-checking gun violence 
 
 Human rights analysts follow multiple online sources simultaneously.
-
+::: {.fragment .fade-in}
 If a gun violence report is identified on social media, they ask follow-up questions to the users. 
-
+:::
+::: {.fragment .fade-in}
 Then, they need to fact-check all reports and, if they are true, record an event in their database and provide real-time alerts.
-
+:::
 ## The needle in the haystack {.smaller}
 
 ::: columns
@@ -147,7 +130,7 @@ The experiment was evaluated through surveys, interviews, and the number of Twit
 
 ## References
 
-- arXiv paper (preprint: [https://arxiv.org/abs/2401.12989](https://arxiv.org/abs/2401.12989))
+- Preprint on arXiv: [https://arxiv.org/abs/2401.12989](https://arxiv.org/abs/2401.12989)
 
 - Access this presentation online: [https://belisards.github.io/dw_desinfo](https://belisards.github.io/dw_desinfo)
 
