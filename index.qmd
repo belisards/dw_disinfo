@@ -24,6 +24,28 @@ format:
 Link for this presentation: [https://belisards.github.io/dw_desinfo](https://belisards.github.io/dw_desinfo)
 :::
 
+
+
+## Fragments
+
+Incremental text display and animation with fragments:
+
+<br/>
+
+::: {.fragment .fade-in}
+Fade in
+:::
+
+::: {.fragment .fade-up}
+Slide up while fading in
+:::
+
+::: {.fragment .fade-left}
+Slide left while fading in
+:::
+
+
+
 ## Hi!
 
 Data journalist from 🇧🇷, experienced in human rights investigations.
@@ -50,16 +72,16 @@ If a gun violence report is identified on social media, they ask follow-up quest
 
 Then, they need to fact-check all reports and, if they are true, record an event in their database and provide real-time alerts.
 
-## The needle in the haystack
+## The needle in the haystack {.smaller}
 
 ::: columns
-::: {.column width="70%"}
+::: {.column width="60%"}
 To keep the flow of new messages manageable, restrictive search filters were used (e.g. using geographic instead of linguistic filters). However, less than half of Twitter data is geotagged, meaning many reports may have been missed.
 
 Even so, following several multiple sources a gun violence report among ordinary text is difficult. Analysts must conciliate the demand for verifying the cases and keeping up with an unstoppable flow of new posts.
 :::
 
-::: {.column width="30%"}
+::: {.column width="40%"}
 ![](img/tweetdeck.jpeg){.border .border-thick}
 :::
 :::
@@ -100,7 +122,7 @@ In addition to standard evaluation using holdout datasets, I integrated the mode
 :::
 
 
-## The experiment
+## The experiment {.smaller}
 
 I conducted an experiment to evaluate the model performance in the wild: for one month, analysts from Rio de Janeiro adopted the AI-based classification to assist their online search, whereas other regions still used only fully human-made reviews. 
 
@@ -117,15 +139,15 @@ The experiment was evaluated through surveys, interviews, and the number of Twit
 
 ## Final considerations
 
-- **Beyond English: language gap in AI**
+- Beyond English: language gap in AI
 
-- **Beyond Twitter: restrictions on social media APIs**
+- Beyond Twitter: restrictions on social media APIs
 
-- **Beyond text: multimodal disinformation** 
+- Beyond text: multimodal disinformation 
 
 ## References
 
-- arXiv paper (preprint: [https://arxiv.org/abs/2401.12989](https://arxiv.org/abs/2401.12989)
+- arXiv paper (preprint: [https://arxiv.org/abs/2401.12989](https://arxiv.org/abs/2401.12989))
 
 - Access this presentation online: [https://belisards.github.io/dw_desinfo](https://belisards.github.io/dw_desinfo)
 
@@ -135,9 +157,9 @@ I'm glad to hear from you!
 
 Email: adrianobf (at) gmail (dot) com
 
-Twitter: @belisards
+Twitter: [@belisards](https://twitter.com/belisards)
 
-LinkedIn: Adriano Belisario
+LinkedIn: [Adriano Belisario](https://www.linkedin.com/in/adriano-belisario-76758632/)
 
 
 
