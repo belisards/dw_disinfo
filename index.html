@@ -369,15 +369,21 @@ Adriano Belisario
 </section>
 <section id="fact-checking-gun-violence" class="slide level2">
 <h2>Fact-checking gun violence</h2>
-<p>Human rights analysts follow multiple online sources simultaneously. ::: {.fragment .fade-in} If a gun violence report is identified on social media, they ask follow-up questions to the users. ::: ::: {.fragment .fade-in} Then, they need to fact-check all reports and, if they are true, record an event in their database and provide real-time alerts. ::: ## The needle in the haystack {.smaller}</p>
-<div class="columns">
-<div class="column" style="width:60%;">
+<p>Human rights analysts follow multiple online sources simultaneously.</p>
+<div class="fragment fade-in">
+<p>If a gun violence report is identified on social media, they ask follow-up questions to the users.</p>
+</div>
+<div class="fragment fade-in">
+<p>Then, they need to fact-check all reports and, if they are true, record an event in their database and provide real-time alerts.</p>
+</div>
+</section>
+<section id="the-needle-in-the-haystack" class="slide level2 smaller">
+<h2>The needle in the haystack</h2>
 <p>To keep the flow of new messages manageable, restrictive search filters were used (e.g.&nbsp;using geographic instead of linguistic filters). However, less than half of Twitter data is geotagged, meaning many reports may have been missed.</p>
 <p>Even so, following several multiple sources a gun violence report among ordinary text is difficult. Analysts must conciliate the demand for verifying the cases and keeping up with an unstoppable flow of new posts.</p>
-</div><div class="column" style="width:40%;">
-<p><img data-src="img/tweetdeck.jpeg" class="border border-thick"></p>
-</div>
-</div>
+</section>
+<section id="section" class="slide level2" data-background="#43464B" data-background-image="img/tweetdeck.jpeg">
+<h2></h2>
 </section>
 <section id="goals" class="slide level2">
 <h2>Goals</h2>
@@ -397,17 +403,14 @@ Adriano Belisario
 </section>
 <section id="the-prototype" class="slide level2">
 <h2>The prototype</h2>
-<div class="columns">
-<div class="column" style="width:70%;">
-<ol type="1">
-<li class="fragment"><p>Fetch new tweets using keywords and/or location and language filters.</p></li>
+<p>::: columns 1. Fetch new tweets using keywords and/or location and language filters.</p>
+<ol start="2" type="1">
 <li class="fragment"><p>The model predicts a binary classification for the message: gun violence report or ordinary text.</p></li>
 <li class="fragment"><p>The text message and all metadata available - including the predictions - are uploaded to Airtable.</p></li>
 </ol>
-</div><div class="column" style="width:30%;">
-<p><img data-src="img/airtable.png" class="border border-thick"></p>
-</div>
-</div>
+</section>
+<section id="section-1" class="slide level2" data-background="#43464B" data-background-image="img/airtable.png">
+<h2></h2>
 </section>
 <section id="the-experiment" class="slide level2 smaller">
 <h2>The experiment</h2>
