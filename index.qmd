@@ -62,7 +62,9 @@ To keep the flow of new messages manageable, restrictive search filters were use
 
 Even so, following several multiple sources a gun violence report among ordinary text is difficult. Analysts must conciliate the demand for verifying the cases and keeping up with an unstoppable flow of new posts.
 
-##  {background="#43464B" background-image="img/tweetdeck.jpeg"}
+---
+
+![](background="#43464B" background-image="img/tweetdeck.jpeg")
 
 ## Goals
 
@@ -118,9 +120,9 @@ The experiment was evaluated through surveys, interviews, and the number of Twit
 
 ## References
 
-Preprint on arXiv: [https://arxiv.org/abs/2401.12989](https://arxiv.org/abs/2401.12989)
+- Preprint on arXiv: [https://arxiv.org/abs/2401.12989](https://arxiv.org/abs/2401.12989)
 
-Access this presentation online: [https://belisards.github.io/dw_desinfo](https://belisards.github.io/dw_desinfo)
+- Access this presentation online: [https://belisards.github.io/dw_desinfo](https://belisards.github.io/dw_desinfo)
 
 ## Contact me
 
@@ -134,6 +136,3 @@ LinkedIn: [Adriano Belisario](https://www.linkedin.com/in/adriano-belisario-7675
 
 
 
-::: footer
-Learn more: [https://fogocruzado.org.br/](https://fogocruzado.org.br/)
-:::
