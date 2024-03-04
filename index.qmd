@@ -85,7 +85,7 @@ In addition to standard evaluation using holdout datasets, I integrated the mode
 :::
 
 ## The prototype
-::: columns
+
 1. Fetch new tweets using keywords and/or location and language filters.
 
 2. The model predicts a binary classification for the message: gun violence report or ordinary text.
@@ -120,9 +120,9 @@ The experiment was evaluated through surveys, interviews, and the number of Twit
 
 ## References
 
-- Preprint on arXiv: [https://arxiv.org/abs/2401.12989](https://arxiv.org/abs/2401.12989)
+Preprint on arXiv: [https://arxiv.org/abs/2401.12989](https://arxiv.org/abs/2401.12989)
 
-- Access this presentation online: [https://belisards.github.io/dw_desinfo](https://belisards.github.io/dw_desinfo)
+Access this presentation online: [https://belisards.github.io/dw_desinfo](https://belisards.github.io/dw_desinfo)
 
 ## Contact me
 
