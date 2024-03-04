@@ -56,15 +56,17 @@ If a gun violence report is identified on social media, they ask follow-up quest
 Then, they need to fact-check all reports and, if they are true, record an event in their database and provide real-time alerts.
 :::
 
-## The needle in the haystack {.smaller}
+## The needle in the haystack
 
 To keep the messages flow manageable, restrictive search filters were used (e.g. using geographic instead of linguistic filters). However, less than half of Twitter data is geotagged, meaning many reports may have been missed.
 
+## The needle in the haystack
+
 Even so, following several multiple sources a gun violence report among ordinary text is difficult. Analysts must conciliate the demand for verifying the cases and keeping up with an unstoppable flow of new posts.
 
----
+## 
 
-![](background-image="img/tweetdeck.jpeg")
+![Tweetdeck](background-image="img/tweetdeck.jpeg")
 
 ## Goals
 
@@ -95,15 +97,15 @@ In addition to standard evaluation using holdout datasets, I integrated the mode
 
 ##  {background="#43464B" background-image="img/airtable.png"}
 
-## The experiment {.smaller}
+## The experiment 
 
 I conducted an experiment to evaluate the model performance in the wild: for one month, analysts from Rio de Janeiro adopted the AI-based classification to assist their online search, whereas other regions still used only fully human-made reviews. 
 
 The experiment was evaluated through surveys, interviews, and the number of Twitter interactions with new reports by region (controlled by external factors).
 
-## Results {.smaller}
+## Results
 
-- The model performed really well in all classification metrics (80-90% of success) when tested with holdout datasets.
+- The model performed well in all classification metrics (80-90% of success) when tested with holdout datasets.
 
 - Analysts have approved and adopted the prototype as part of their standard workflow to monitor new cases;
 
