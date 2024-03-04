@@ -35,8 +35,6 @@ Since 2013, I have collaborated with several Brazilian and international organiz
 Here, I will present my research at the Oxford Internet Institute, developed in partnership with [**Fogo Cruzado**](https://fogocruzado.org.br/).
 :::
 
-
-
 ## Fogo Cruzado
 Instituto Fogo Cruzado (Crossfire Institute) has monitored and collected data from firearm violence events in Rio de Janeiro since 2017. They currently operate in four cities.
 
@@ -49,26 +47,22 @@ Learn more: [https://fogocruzado.org.br/](https://fogocruzado.org.br/)
 ## Fact-checking gun violence 
 
 Human rights analysts follow multiple online sources simultaneously.
+
 ::: {.fragment .fade-in}
 If a gun violence report is identified on social media, they ask follow-up questions to the users. 
 :::
+
 ::: {.fragment .fade-in}
 Then, they need to fact-check all reports and, if they are true, record an event in their database and provide real-time alerts.
 :::
+
 ## The needle in the haystack {.smaller}
 
-::: columns
-::: {.column width="60%"}
 To keep the flow of new messages manageable, restrictive search filters were used (e.g. using geographic instead of linguistic filters). However, less than half of Twitter data is geotagged, meaning many reports may have been missed.
 
 Even so, following several multiple sources a gun violence report among ordinary text is difficult. Analysts must conciliate the demand for verifying the cases and keeping up with an unstoppable flow of new posts.
-:::
 
-::: {.column width="40%"}
-![](img/tweetdeck.jpeg){.border .border-thick}
-:::
-:::
-
+##  {background="#43464B" background-image="img/tweetdeck.jpeg"}
 
 ## Goals
 
@@ -90,20 +84,14 @@ In addition to standard evaluation using holdout datasets, I integrated the mode
 
 ## The prototype
 ::: columns
-::: {.column width="70%"}
 1. Fetch new tweets using keywords and/or location and language filters.
 
 2. The model predicts a binary classification for the message: gun violence report or ordinary text.
 
 3. The text message and all metadata available - including the predictions - are uploaded to Airtable.
 
-:::
 
-::: {.column width="30%"}
-![](img/airtable.png){.border .border-thick}
-:::
-:::
-
+##  {background="#43464B" background-image="img/airtable.png"}
 
 ## The experiment {.smaller}
 
