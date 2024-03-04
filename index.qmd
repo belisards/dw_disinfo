@@ -118,9 +118,9 @@ The experiment was evaluated through surveys, interviews, and the number of Twit
 
 ## References
 
-- Preprint on arXiv: [https://arxiv.org/abs/2401.12989](https://arxiv.org/abs/2401.12989)
+Preprint on arXiv: [https://arxiv.org/abs/2401.12989](https://arxiv.org/abs/2401.12989)
 
-- Access this presentation online: [https://belisards.github.io/dw_desinfo](https://belisards.github.io/dw_desinfo)
+Access this presentation online: [https://belisards.github.io/dw_desinfo](https://belisards.github.io/dw_desinfo)
 
 ## Contact me
 
@@ -134,3 +134,6 @@ LinkedIn: [Adriano Belisario](https://www.linkedin.com/in/adriano-belisario-7675
 
 
 
+::: footer
+Learn more: [https://fogocruzado.org.br/](https://fogocruzado.org.br/)
+:::
