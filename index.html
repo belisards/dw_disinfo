@@ -377,15 +377,18 @@ Adriano Belisario
 <p>Then, they need to fact-check all reports and, if they are true, record an event in their database and provide real-time alerts.</p>
 </div>
 </section>
-<section id="the-needle-in-the-haystack" class="slide level2 smaller">
+<section id="the-needle-in-the-haystack" class="slide level2">
 <h2>The needle in the haystack</h2>
 <p>To keep the messages flow manageable, restrictive search filters were used (e.g.&nbsp;using geographic instead of linguistic filters). However, less than half of Twitter data is geotagged, meaning many reports may have been missed.</p>
+</section>
+<section id="the-needle-in-the-haystack-1" class="slide level2">
+<h2>The needle in the haystack</h2>
 <p>Even so, following several multiple sources a gun violence report among ordinary text is difficult. Analysts must conciliate the demand for verifying the cases and keeping up with an unstoppable flow of new posts.</p>
 </section>
-<section class="slide level2">
+<section id="section" class="slide level2">
+<h2></h2>
 
-
-<img data-src="background-image=%22img/tweetdeck.jpeg%22" class="r-stretch"></section>
+<img data-src="background-image=%22img/tweetdeck.jpeg%22" class="r-stretch quarto-figure-center"><p class="caption">Tweetdeck</p></section>
 <section id="goals" class="slide level2">
 <h2>Goals</h2>
 <ul>
@@ -410,18 +413,18 @@ Adriano Belisario
 <li class="fragment"><p>The text message and all metadata available - including the predictions - are uploaded to Airtable.</p></li>
 </ol>
 </section>
-<section id="section" class="slide level2" data-background="#43464B" data-background-image="img/airtable.png">
+<section id="section-1" class="slide level2" data-background="#43464B" data-background-image="img/airtable.png">
 <h2></h2>
 </section>
-<section id="the-experiment" class="slide level2 smaller">
+<section id="the-experiment" class="slide level2">
 <h2>The experiment</h2>
 <p>I conducted an experiment to evaluate the model performance in the wild: for one month, analysts from Rio de Janeiro adopted the AI-based classification to assist their online search, whereas other regions still used only fully human-made reviews.</p>
 <p>The experiment was evaluated through surveys, interviews, and the number of Twitter interactions with new reports by region (controlled by external factors).</p>
 </section>
-<section id="results" class="slide level2 smaller">
+<section id="results" class="slide level2">
 <h2>Results</h2>
 <ul>
-<li class="fragment"><p>The model performed really well in all classification metrics (80-90% of success) when tested with holdout datasets.</p></li>
+<li class="fragment"><p>The model performed well in all classification metrics (80-90% of success) when tested with holdout datasets.</p></li>
 <li class="fragment"><p>Analysts have approved and adopted the prototype as part of their standard workflow to monitor new cases;</p></li>
 <li class="fragment"><p>The experiment showed that using AI increased analysts’ interactions with users reporting armed violence.</p></li>
 </ul>
