@@ -49,7 +49,7 @@ Fogo Cruzado's website: [https://fogocruzado.org.br/](https://fogocruzado.org.br
 Human rights analysts follow multiple online sources simultaneously.
 
 ::: {.fragment .fade-in}
-If a gun violence report is identified on social media, they ask follow-up questions to the users. 
+If a gun violence report is identified on Twitter, they ask follow-up questions to the users. 
 :::
 
 ::: {.fragment .fade-in}
@@ -106,9 +106,9 @@ In addition to standard evaluation using holdout datasets, I integrated the mode
 
 I conducted an experiment to evaluate the model performance in the wild: for one month, analysts from Rio de Janeiro adopted the AI-based classification to assist their online search, whereas other regions still used only fully human-made reviews. 
 
-The experiment was evaluated through surveys, interviews, and the number of Twitter interactions with new reports by region (controlled by external factors).
+The experiment was evaluated through surveys, interviews, and the number of Twitter interactions with new reports by region (diff-in-diff analysis controlled by external factors).
 
-## Results
+## Classification metrics
 
 ![](img/results.png)
 
@@ -119,7 +119,6 @@ The experiment was evaluated through surveys, interviews, and the number of Twit
 - Analysts have approved and adopted the prototype as part of their standard workflow to monitor new cases;
 
 - The experiment showed that using AI increased analysts' interactions with users reporting armed violence.
-
 
 ## Final considerations
 
@@ -146,6 +145,3 @@ Email: adrianobf (at) gmail (dot) com
 Twitter: [@belisards](https://twitter.com/belisards)
 
 LinkedIn: [Adriano Belisario](https://www.linkedin.com/in/adriano-belisario-76758632/)
-
-
-
