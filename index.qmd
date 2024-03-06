@@ -142,11 +142,11 @@ Similarly, we also found little overlap between contents across platforms, indic
 
 ## Final considerations
 
-- Beyond English: language gap in AI
+- Language gap in AI
 
-- Beyond Twitter: restrictions on social media APIs
+- Cross-platform misinformation
 
-- Beyond text: multimodal disinformation 
+- Multimodal disinformation 
 
 ## References
 
