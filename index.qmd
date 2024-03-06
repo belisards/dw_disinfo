@@ -29,7 +29,7 @@ Link for this presentation: [https://belisards.github.io/dw_desinfo](https://bel
 
 Data journalist from 🇧🇷, experienced in human rights investigations.
 
-Since 2013, I have collaborated with several Brazilian and international organizations, such as Witness, UNHCR, Forensic Architecture, and Bellingcat.
+Since 2013, I have collaborated with several Brazilian and international organizations, such as Witness, UNHCR, Forensic Architecture, Open Knowledge, and Bellingcat.
 
 ::: {.fragment .fade-in}
 Here, I will present my research at the Oxford Internet Institute, developed in partnership with [**Fogo Cruzado**](https://fogocruzado.org.br/).
@@ -58,7 +58,9 @@ Then, they need to fact-check all reports and, if they are true, record an event
 
 ## The needle in the haystack
 
-To keep the messages flow manageable, restrictive search filters were used (e.g. using geographic instead of linguistic filters). However, less than half of Twitter data is geotagged, meaning many reports may have been missed.
+To keep the messages flow manageable, restrictive search filters were used (e.g. using geographic instead of linguistic filters). 
+
+However, less than half of Twitter data is geotagged, meaning many reports may have been missed.
 
 ## The needle in the haystack
 
@@ -78,13 +80,17 @@ Even so, following several multiple sources a gun violence report among ordinary
 
 ## Methods
 
-I fine-tuned a Transformer neural network (the T in ChatGPT) using an open-source base model for Portuguese (BERTimbau) and ~30k tweet messages.
+I fine-tuned a Transformer neural network (the T in ChatGPT) using an open-source base model for Portuguese (BERTimbau) and ~24k tweet messages.
 
 In addition to standard evaluation using holdout datasets, I integrated the model in a prototype designed to provide real-time predictions and evaluated it in real-world conditions with an experiment.
 
 ::: footer
 [https://huggingface.co/neuralmind/bert-large-portuguese-cased](https://huggingface.co/neuralmind/bert-large-portuguese-cased)
 :::
+
+## Example
+
+![Tweetdeck](background-image="img/examples.jpeg")
 
 ## The prototype
 
