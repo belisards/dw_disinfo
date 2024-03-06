@@ -31,7 +31,7 @@ Link for this presentation: [belisards.github.io/slides-bert-fact-checking/](htt
 
 Data journalist from Brazil, experienced in human rights investigations.
 
-Since 2013, I have collaborated with several Brazilian and international organizations, such as Witness, UNHCR, Forensic Architecture, Open Knowledge, and Bellingcat.
+Since 2013, I have collaborated with projects from several Brazilian and international organizations, such as Witness, UNHCR, Forensic Architecture, Open Knowledge, and Bellingcat.
 
 ::: {.fragment .fade-in}
 Here, I will present two papers based on my research at the Oxford Internet Institute.
