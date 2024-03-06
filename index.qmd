@@ -18,9 +18,9 @@ format:
 
 - Language models for fact-checking firearm violence reports
 
-- Extra: claim-matching and cross-platform misinformation
+- Claim-matching and cross-platform misinformation
 
-- Considerations on AI uses for human rights investigations
+- Considerations on AI uses for fact-checking
 
 ::: footer
 Link for this presentation: [belisards.github.io/slides-bert-fact-checking/](https://belisards.github.io/slides-bert-fact-checking/)
@@ -29,7 +29,7 @@ Link for this presentation: [belisards.github.io/slides-bert-fact-checking/](htt
 
 ## Hi!
 
-Data journalist from 🇧🇷, experienced in human rights investigations.
+Data journalist from Brazil, experienced in human rights investigations.
 
 Since 2013, I have collaborated with several Brazilian and international organizations, such as Witness, UNHCR, Forensic Architecture, Open Knowledge, and Bellingcat.
 
@@ -126,15 +126,19 @@ The experiment was evaluated through surveys, interviews, and the number of Twit
 
 Analyzing Misinformation Claims During the 2022 Brazilian General Election on WhatsApp, Twitter, and Kwai: [arxiv.org/abs/2401.02395](https://arxiv.org/abs/2401.02395)
 
+::: {.fragment .fade-in}
 We partnered with the Brazil’s election authority and three fact-checking organizations running WhatsApp tiplines.
 
 We compared the content submitted by users with posts from Twitter and Kwai.
+:::
 
 ## Results
 
 We observed little overlap between the users of different fact-checking tiplines and a high correlation between the number of users and the amount of unique content, suggesting that WhatsApp tiplines are far from reaching a saturation point. 
 
+::: {.fragment .fade-in}
 Similarly, we also found little overlap between contents across platforms, indicating the need for further research with cross-platform approaches to identify misinformation dynamics.
+:::
 
 ## Final considerations
 
