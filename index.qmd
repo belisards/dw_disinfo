@@ -34,11 +34,11 @@ Data journalist from Brazil, experienced in human rights investigations.
 Since 2013, I have collaborated with several Brazilian and international organizations, such as Witness, UNHCR, Forensic Architecture, Open Knowledge, and Bellingcat.
 
 ::: {.fragment .fade-in}
-Here, I will present my research at the Oxford Internet Institute, developed in partnership with [**Fogo Cruzado**](https://fogocruzado.org.br/).
+Here, I will present two papers based on my research at the Oxford Internet Institute.
 :::
 
 ## Fogo Cruzado
-Instituto Fogo Cruzado (Crossfire Institute) has monitored and collected data from firearm violence events in Rio de Janeiro since 2017. They currently operate in four cities.
+[**Instituto Fogo Cruzado**](https://fogocruzado.org.br/) (Crossfire Institute) has monitored and collected data from firearm violence events in Rio de Janeiro since 2017. They currently operate in four cities.
 
 Fogo Cruzado's human rights analysts follow online and on-the-ground sources seven days a week. 
 
