@@ -16,7 +16,9 @@ format:
 
 - About me
 
-- My research on language models and firearm violence
+- Language models for fact-checking firearm violence reports
+
+- Cross-platform misinformation
 
 - Considerations on AI uses for human rights investigations
 
@@ -119,6 +121,20 @@ The experiment was evaluated through surveys, interviews, and the number of Twit
 - Analysts have approved and adopted the prototype as part of their standard workflow to monitor new cases;
 
 - The experiment showed that using AI increased analysts' interactions with users reporting armed violence.
+
+## Cross-platform misinformation
+
+Analyzing Misinformation Claims During the 2022 Brazilian General Election on WhatsApp, Twitter, and Kwai: [arxiv.org/abs/2401.02395](https://arxiv.org/abs/2401.02395)
+
+We partnered with the Brazil’s election authority and three fact-checking organizations running WhatsApp tiplines.
+
+We compared the content submitted by users with posts from Twitter and Kwai.
+
+## Results
+
+We observed little overlap between the users of different fact-checking tiplines and a high correlation between the number of users and the amount of unique content, suggesting that WhatsApp tiplines are far from reaching a saturation point. 
+
+Similarly, we also found little overlap between contents across platforms, indicating the need for further research with cross-platform approaches to identify misinformation dynamics.
 
 ## Final considerations
 
