@@ -127,9 +127,11 @@ The experiment was evaluated through surveys, interviews, and the number of Twit
 
 ## References
 
-Preprint on arXiv: [arxiv.org/abs/2401.12989](https://arxiv.org/abs/2401.12989)
+Into the crossfire: evaluating the use of a language model to crowdsource gun violence reports: [arxiv.org/abs/2401.12989](https://arxiv.org/abs/2401.12989)
 
 Access this presentation online: [belisards.github.io/dw_desinfo](https://belisards.github.io/dw_desinfo)
+
+Analyzing Misinformation Claims During the 2022 Brazilian General Election on WhatsApp, Twitter, and Kwai: [arxiv.org/abs/2401.02395](https://arxiv.org/abs/2401.02395)
 
 ## Contact me
 
