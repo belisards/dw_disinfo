@@ -21,7 +21,7 @@ format:
 - Considerations on AI uses for human rights investigations
 
 ::: footer
-Link for this presentation: [https://belisards.github.io/dw_desinfo](https://belisards.github.io/dw_desinfo)
+Link for this presentation: [belisards.github.io/dw_desinfo](https://belisards.github.io/dw_desinfo)
 :::
 
 
@@ -127,7 +127,7 @@ The experiment was evaluated through surveys, interviews, and the number of Twit
 
 ## References
 
-Preprint on arXiv: [https://arxiv.org/abs/2401.12989](https://arxiv.org/abs/2401.12989)
+Preprint on arXiv: [arxiv.org/abs/2401.12989](https://arxiv.org/abs/2401.12989)
 
 Access this presentation online: [belisards.github.io/dw_desinfo](https://belisards.github.io/dw_desinfo)
 
