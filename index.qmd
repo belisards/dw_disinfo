@@ -58,13 +58,13 @@ Then, they need to fact-check all reports and, if they are true, record an event
 
 ## The needle in the haystack
 
-To keep the messages flow manageable, restrictive search filters were used (e.g. using geographic instead of linguistic filters). 
+To keep the message flow manageable, restrictive search filters were used (e.g. using geographic instead of linguistic filters). 
 
 However, less than half of Twitter data is geotagged, meaning many reports may have been missed.
 
 ## The needle in the haystack
 
-Even so, following several multiple sources a gun violence report among ordinary text is difficult. Analysts must conciliate the demand for verifying the cases and keeping up with an unstoppable flow of new posts.
+Even so, finding a gun violence report among ordinary text is difficult. Analysts must conciliate the demand for verifying the cases and keeping up with an unstoppable flow of new posts.
 
 ## 
 
