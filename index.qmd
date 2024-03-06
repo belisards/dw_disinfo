@@ -90,7 +90,7 @@ In addition to standard evaluation using holdout datasets, I integrated the mode
 
 ## Example
 
-![Tweetdeck](background-image="img/examples.jpeg")
+![Tweetdeck](img/examples.jpeg)
 
 ## The prototype
 
