@@ -371,7 +371,7 @@ Adriano Belisario
 <h2>Fact-checking gun violence</h2>
 <p>Human rights analysts follow multiple online sources simultaneously.</p>
 <div class="fragment fade-in">
-<p>If a gun violence report is identified on social media, they ask follow-up questions to the users.</p>
+<p>If a gun violence report is identified on Twitter, they ask follow-up questions to the users.</p>
 </div>
 <div class="fragment fade-in">
 <p>Then, they need to fact-check all reports and, if they are true, record an event in their database and provide real-time alerts.</p>
@@ -379,12 +379,12 @@ Adriano Belisario
 </section>
 <section id="the-needle-in-the-haystack" class="slide level2">
 <h2>The needle in the haystack</h2>
-<p>To keep the messages flow manageable, restrictive search filters were used (e.g.&nbsp;using geographic instead of linguistic filters).</p>
+<p>To keep the message flow manageable, restrictive search filters were used (e.g.&nbsp;using geographic instead of linguistic filters).</p>
 <p>However, less than half of Twitter data is geotagged, meaning many reports may have been missed.</p>
 </section>
 <section id="the-needle-in-the-haystack-1" class="slide level2">
 <h2>The needle in the haystack</h2>
-<p>Even so, following several multiple sources a gun violence report among ordinary text is difficult. Analysts must conciliate the demand for verifying the cases and keeping up with an unstoppable flow of new posts.</p>
+<p>Even so, finding a gun violence report among ordinary text is difficult. Analysts must conciliate the demand for verifying the cases and keeping up with an unstoppable flow of new posts.</p>
 </section>
 <section id="section" class="slide level2">
 <h2></h2>
@@ -424,13 +424,13 @@ Adriano Belisario
 <section id="the-experiment" class="slide level2">
 <h2>The experiment</h2>
 <p>I conducted an experiment to evaluate the model performance in the wild: for one month, analysts from Rio de Janeiro adopted the AI-based classification to assist their online search, whereas other regions still used only fully human-made reviews.</p>
-<p>The experiment was evaluated through surveys, interviews, and the number of Twitter interactions with new reports by region (controlled by external factors).</p>
+<p>The experiment was evaluated through surveys, interviews, and the number of Twitter interactions with new reports by region (diff-in-diff analysis controlled by external factors).</p>
 </section>
-<section id="results" class="slide level2">
-<h2>Results</h2>
+<section id="classification-metrics" class="slide level2">
+<h2>Classification metrics</h2>
 
 <img data-src="img/results.png" class="r-stretch"></section>
-<section id="results-1" class="slide level2">
+<section id="results" class="slide level2">
 <h2>Results</h2>
 <ul>
 <li class="fragment"><p>The model performed well in all classification metrics (80-90% of success) when tested with holdout datasets.</p></li>
