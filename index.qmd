@@ -100,8 +100,7 @@ In addition to standard evaluation using holdout datasets, I integrated the mode
 
 3. The text message and all metadata available - including the predictions - are uploaded to Airtable.
 
-
-##  {background="#43464B" background-image="img/airtable.png"}
+##  {background-image="img/airtable.png"}
 
 ## The experiment 
 
