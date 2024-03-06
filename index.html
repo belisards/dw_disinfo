@@ -8,7 +8,7 @@
 <link href="index_files/libs/quarto-html/light-border.css" rel="stylesheet">
 <link href="index_files/libs/quarto-html/quarto-html.min.css" rel="stylesheet" data-mode="light">
 <link href="index_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
-  <meta name="generator" content="quarto-1.4.550">
+  <meta name="generator" content="quarto-1.4.551">
 
   <meta name="author" content="Adriano Belisario">
   <title>Using language models for fact-checking on gun violence events</title>
@@ -354,7 +354,7 @@ Adriano Belisario
 <section id="hi" class="slide level2">
 <h2>Hi!</h2>
 <p>Data journalist from 🇧🇷, experienced in human rights investigations.</p>
-<p>Since 2013, I have collaborated with several Brazilian and international organizations, such as Witness, UNHCR, Forensic Architecture, and Bellingcat.</p>
+<p>Since 2013, I have collaborated with several Brazilian and international organizations, such as Witness, UNHCR, Forensic Architecture, Open Knowledge, and Bellingcat.</p>
 <div class="fragment fade-in">
 <p>Here, I will present my research at the Oxford Internet Institute, developed in partnership with <a href="https://fogocruzado.org.br/"><strong>Fogo Cruzado</strong></a>.</p>
 </div>
@@ -379,7 +379,8 @@ Adriano Belisario
 </section>
 <section id="the-needle-in-the-haystack" class="slide level2">
 <h2>The needle in the haystack</h2>
-<p>To keep the messages flow manageable, restrictive search filters were used (e.g.&nbsp;using geographic instead of linguistic filters). However, less than half of Twitter data is geotagged, meaning many reports may have been missed.</p>
+<p>To keep the messages flow manageable, restrictive search filters were used (e.g.&nbsp;using geographic instead of linguistic filters).</p>
+<p>However, less than half of Twitter data is geotagged, meaning many reports may have been missed.</p>
 </section>
 <section id="the-needle-in-the-haystack-1" class="slide level2">
 <h2>The needle in the haystack</h2>
@@ -399,12 +400,16 @@ Adriano Belisario
 </section>
 <section id="methods" class="slide level2">
 <h2>Methods</h2>
-<p>I fine-tuned a Transformer neural network (the T in ChatGPT) using an open-source base model for Portuguese (BERTimbau) and ~30k tweet messages.</p>
+<p>I fine-tuned a Transformer neural network (the T in ChatGPT) using an open-source base model for Portuguese (BERTimbau) and ~24k tweet messages.</p>
 <p>In addition to standard evaluation using holdout datasets, I integrated the model in a prototype designed to provide real-time predictions and evaluated it in real-world conditions with an experiment.</p>
 <div class="footer">
 <p><a href="https://huggingface.co/neuralmind/bert-large-portuguese-cased">https://huggingface.co/neuralmind/bert-large-portuguese-cased</a></p>
 </div>
 </section>
+<section id="example" class="slide level2">
+<h2>Example</h2>
+
+<img data-src="background-image=%22img/examples.jpeg%22" class="r-stretch quarto-figure-center"><p class="caption">Tweetdeck</p></section>
 <section id="the-prototype" class="slide level2">
 <h2>The prototype</h2>
 <ol type="1">
@@ -742,6 +747,24 @@ Adriano Belisario
         // clear code selection
         e.clearSelection();
       });
+        var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+        var mailtoRegex = new RegExp(/^mailto:/);
+          var filterRegex = new RegExp('/' + window.location.host + '/');
+        var isInternal = (href) => {
+            return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+        }
+        // Inspect non-navigation links and adorn them if external
+     	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
+        for (var i=0; i<links.length; i++) {
+          const link = links[i];
+          if (!isInternal(link.href)) {
+            // undo the damage that might have been done by quarto-nav.js in the case of
+            // links that we want to consider external
+            if (link.dataset.originalHref !== undefined) {
+              link.href = link.dataset.originalHref;
+            }
+          }
+        }
       function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
         const config = {
           allowHTML: true,
@@ -778,7 +801,11 @@ Adriano Belisario
           try { href = new URL(href).hash; } catch {}
           const id = href.replace(/^#\/?/, "");
           const note = window.document.getElementById(id);
-          return note.innerHTML;
+          if (note) {
+            return note.innerHTML;
+          } else {
+            return "";
+          }
         });
       }
       const findCites = (el) => {
