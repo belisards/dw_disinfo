@@ -7,7 +7,7 @@ format:
     incremental: true
     slide-number: true
     chalkboard: 
-      buttons: true
+      buttons: false
     preview-links: auto
     css: styles.css
 ---
