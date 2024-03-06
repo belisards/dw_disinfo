@@ -1,5 +1,5 @@
 ---
-title: "Using language models for fact-checking on gun violence events"
+title: "AI uses for fact-checking in Brazil"
 author: "Adriano Belisario"
 format:
   revealjs: 
@@ -18,7 +18,7 @@ format:
 
 - Language models for fact-checking firearm violence reports
 
-- Cross-platform misinformation
+- Extra: claim-matching and cross-platform misinformation
 
 - Considerations on AI uses for human rights investigations
 
