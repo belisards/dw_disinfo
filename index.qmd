@@ -21,7 +21,7 @@ format:
 - Considerations on AI uses for human rights investigations
 
 ::: footer
-Link for this presentation: [belisards.github.io/dw_desinfo](https://belisards.github.io/dw_desinfo)
+Link for this presentation: [belisards.github.io/slides-bert-fact-checking/](https://belisards.github.io/slides-bert-fact-checking/)
 :::
 
 
@@ -110,6 +110,10 @@ The experiment was evaluated through surveys, interviews, and the number of Twit
 
 ## Results
 
+![](img/results.png)
+
+## Results
+
 - The model performed well in all classification metrics (80-90% of success) when tested with holdout datasets.
 
 - Analysts have approved and adopted the prototype as part of their standard workflow to monitor new cases;
@@ -129,7 +133,7 @@ The experiment was evaluated through surveys, interviews, and the number of Twit
 
 Into the crossfire: evaluating the use of a language model to crowdsource gun violence reports: [arxiv.org/abs/2401.12989](https://arxiv.org/abs/2401.12989)
 
-Access this presentation online: [belisards.github.io/dw_desinfo](https://belisards.github.io/dw_desinfo)
+Access this presentation online: [belisards.github.io/slides-bert-fact-checking/](https://belisards.github.io/slides-bert-fact-checking/)
 
 Analyzing Misinformation Claims During the 2022 Brazilian General Election on WhatsApp, Twitter, and Kwai: [arxiv.org/abs/2401.02395](https://arxiv.org/abs/2401.02395)
 
